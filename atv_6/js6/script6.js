@@ -1,0 +1,9 @@
+var letra = prompt("Digite uma letra");
+
+letra = letra.toLowerCase();
+
+if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
+  console.log("A letra é uma vogal");
+} else {
+  console.log("A letra é uma consoante");
+}
